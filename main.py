@@ -9,8 +9,8 @@ st.set_page_config(page_title="학생 프로젝트 보고서 요약기+", page_i
 st.title("📝 학생 프로젝트 보고서 요약기+")
 st.caption("보고서를 50/100/300/500자로 요약하고, AI 추천 질문 기반 관점 요약도 생성합니다.")
 
-# OpenAI 클라이언트
-client = OpenAI(api_key=st.secrets["openai_api_key"])
+# OpenAI 클라이언트(api적기)
+client = OpenAI(api_key=st.secrets["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"])
 
 SAMPLE_REPORT = (
     "우리 팀은 기후 변화로 인한 이상기온과 자연재해 발생을 예측하기 위해 인공지능 기술을 활용한 프로젝트를 진행하였다. "
