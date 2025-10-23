@@ -1,7 +1,7 @@
 import textwrap
 import streamlit as st
 from openai import OpenAI
-openai_api_key = “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”
+openai_api_key = "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"
 # ---------------------------
 # 설정 & 상수
 # ---------------------------
